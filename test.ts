@@ -1,3 +1,5 @@
 import fs from "fs";
 
-fs.writeFileSync("./aaaa", "test");
+fs.writeFileSync("./aaaa", "aaa");
+const data = fs.readFileSync("./aaaa", "utf-8");
+console.log(data);
